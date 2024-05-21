@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Values</string>
+    <string name="firsttext">helloWorld1</string>
+    <string name="secondtext">helloWorld2</string>
+    <string name="thirdtext">helloWorld3</string>
+    <string name="forthtext">helloWorld4</string>
+    
+
+<!--    bta3mel array btsameha data w bt7et feha items ya3ne kel item heye wa7de mn l array value
+w ba3den bt7et l esm l array mtl ma howe bel lista fa byen7ato ta7t ba3doun-->
+    <string-array name="data">
+        <item>palestine</item>
+        <item>uae</item>
+        <item>lebanon</item>
+        <item>Us</item>
+        <item>jorden</item>
+    </string-array>
+</resources>

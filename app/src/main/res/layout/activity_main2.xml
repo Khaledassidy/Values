@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <!--    3ande layout esmo list view 3ebara 3an list feha scroll-->
+<!--    law fe 3ande she bade ektobo string b2alb hayde l list view w heye sebte ma7a 8ayera ma 7an 8ayera barmajeyan so bade 7ota bl string
+
+fa hayde list view 3ebara 3an majmo3et kalamet ya3ne bade zeed array majmo3et kalemet
+-->
+
+<!--    l intries l heye l keyam le badak ta5ela bt7ot feha esm l array fa byetl3o b run list b data le 7ataytoun
+ya3ne heek:palestine
+           uae
+           lebanon
+           us
+           jorden-->
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:entries="@array/data">
+
+    </ListView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
